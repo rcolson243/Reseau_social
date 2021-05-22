@@ -36,7 +36,7 @@ a {
 
 .list_groupe_ul {
     display: flex;
-    font-size: 16px
+    font-size: 16px;
 }
 
 .list_items {
@@ -67,6 +67,11 @@ a {
     display: flex;
     margin-bottom: 10px;
     cursor: pointer;
+    transition: 0.5s;
+}
+
+.flex_container:hover { 
+    transform: scale(1.2);
 }
 
 .text_p {
@@ -79,4 +84,42 @@ a {
     color: #000;
     font-weight: 500;
     border-radius: 4px;
+}
+
+/* style post_article_milieu */
+
+.post_article_milieu {
+    margin-right: 41px;
+    display: flex;
+    flex-direction: column;
+}
+
+.post_article_card {
+    background: #fff;
+    width: 500px;
+    height: 594px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(167, 161, 161);
+}
+
+.post_article_tete {
+    display: flex;
+    flex-direction: row;
+    height: 73px;
+    width: 100%;
+}
+
+.photo_profils {
+    height: 46px;
+    width: 46px;
+    background: url(images/allef-vinicius-OEMsLzuWKQc-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 15px 0px 0px 12px;
+    border-radius: 50%;
+}
+.pseudo_time {
+    line-height: 4px;
+    padding-left: 2px;
 }
