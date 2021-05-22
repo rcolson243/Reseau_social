@@ -218,3 +218,20 @@ a {
     font-size: 10px
 }
 
+.block_infos_icon_ajouter {
+    display: flex;
+    position: relative;
+    bottom: 9px;
+    cursor: pointer;
+}
+
+.block_infos_icon_ajouter i {
+    padding-right: 10px;
+    color: #34AAFF
+}
+
+.block_infos_icon_ajouter p {
+    position: relative;
+    bottom: 9px;
+}
+
