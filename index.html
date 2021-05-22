@@ -6,16 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>webapp</title>
     <link rel="stylesheet" href="style.css">
-
     <!-- CDN  fontawesome -->
     <script src="https://kit.fontawesome.com/6dd7ccfc27.js" crossorigin="anonymous"></script>
-
+    <!-- CDN AnimateCSS -->
+    <link rel = "stylesheet" href = "css / animate.css">
     
 </head>
 <body>
     <header>
         <nav class="navbar_top">
-            <h2>Ramso_Code</h2>
+            <h2 class="animate__animated animate__wobble">Ramso_Code</h2>
 
             <ul class="list_groupe_ul">
                 <li class="list_items"><a href="#">Accueil</a></li>
@@ -156,7 +156,7 @@
 
                 <div class="ajout_amis_suggestion">
                     <div class="block_amis_suggestion">
-                        <img class="img_suggestion" src="/images/jakob-owens-voeDggfOgxc-unsplash.jpg" alt="">
+                        <img class="img_suggestion" src="https://images.unsplash.com/photo-1495490140452-5a226aef25d4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80" alt="">
 
                         <div class="block_profil_infos">
                             <p><strong>Jakob Monitor</strong> <br> <span class="span_info">15 amis en commun </span> </p>
@@ -204,6 +204,12 @@
         </aside>
 
     </main>
-    
+
+
+    <!-- wow js script -->
+    <script src = "js / wow.min.js"> </script>
+    <script>
+        new WOW (). init ();
+    </script>
 </body>
 </html>
